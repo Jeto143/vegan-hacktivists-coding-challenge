@@ -15,4 +15,14 @@ final class QuestionController extends Controller
             'questions' => Question::all()->sortByDesc('created_at'),
         ]);
     }
+
+    public function show(string $slug): View
+    {
+        $question = Question::findOrFail((int)$slug);
+
+        return view('question-show', [
+            'question' => $question,
+            'answers' => $question->answers->sortBy('created_at')
+        ]);
+    }
 }
