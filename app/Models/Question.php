@@ -16,6 +16,7 @@ use Illuminate\Support\Str;
  * @property string $title
  * @property Carbon $created_at
  * @property Carbon $updated_at
+ * @property string $idSlug
  * @property Collection|Answer[] $answers
  */
 final class Question extends Model
