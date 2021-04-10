@@ -1,8 +1,8 @@
 # Super Basic Q&A
 
-This little project was made as a coding challenge for applying to [Vegan Hacktivists](https://veganhacktivists.org/).
+This little project was created as a coding challenge for applying to [Vegan Hacktivists](https://veganhacktivists.org/).
 
-It makes use of Laravel 8 and MySQL, and requires PHP 7.4+.
+It is made with Laravel 8 and requires PHP 7.4+.
 
 ## Challenge instructions
 
