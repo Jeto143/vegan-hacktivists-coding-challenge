@@ -13,7 +13,7 @@ final class CreateAnswersTable extends Migration
         Schema::create('answers', function (Blueprint $table) {
             $table->id();
             $table->foreignId('question_id')->references('id')->on('questions');
-            $table->string('text');
+            $table->text('text');
             $table->timestamps();
         });
     }
